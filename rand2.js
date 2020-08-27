@@ -4,7 +4,7 @@ input: process.stdin,
 output: process.stdout
 });
 var randNum = Math.floor(Math.random()*10)+1;
-console.log(randNum);
+
 loopIt(); //function to repeat the input request
 function loopIt() {
   var guessNum = 11; //preassigning the guessNum variable
