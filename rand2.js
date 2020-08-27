@@ -4,10 +4,10 @@ input: process.stdin,
 output: process.stdout
 });
 var randNum = Math.floor(Math.random()*10)+1;
-
+// console.log(randNum);
 loopIt(); //function to repeat the input request
 function loopIt() {
-  var guessNum = 11; //preassigning the guessNum variable
+//  var guessNum = 11; //preassigning the guessNum variable
 
   rl.question('Pick a number (0 to quit):', (guessNum) => {
       if (guessNum > randNum && guessNum < 11) {
